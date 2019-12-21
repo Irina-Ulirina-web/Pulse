@@ -13,7 +13,8 @@
 [class^="icon-"], [class*=" icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'icomoon' !important;
-  speak: none;
+  /* раньше было написано просто "speak" а не "speak as" но во вкладке проблемс высвечивалась желтая лампочка, пришлось заменить на предложенный */
+  speak-as: none;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
